@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">sistemas</string>
+    <string name="txt_sp">SistemasApp</string>
+    <string name="direccionSistemas">Direccion de Sistemas</string>
+    <string name="tasks">Tareas</string>
+    <string name="solutions">Soluciones</string>
+
+    <string name="ayuda">Soluciones de Errores Frecuentes</string>
+
+    <string name="AreaSolicitante">Area Solicitante</string>
+    <string name="descripcion">Descripcion de la tarea</string>
+    <string name="guardar">Guardar Tarea</string>
+
+    <string name="listadetareas">TAREAS:</string>
+
+
+    <string name="errorsieteb">Error 0xc000007b</string>
+    <string name="errorsetentaycuatro">Error 0xC004F074</string>
+    <string name="erroronceb">Error 0X0000011b</string>
+    <string name="recuperarcontraseña">RECUPERAR Contraseña de Windows</string>
+
+
+
+
+
+
+
+
+
+</resources>

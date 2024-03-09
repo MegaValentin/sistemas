@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgprincipal"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/sistemAppText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/direccionSistemas"
+        android:textColor="@color/colortext1"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/tasks"
+        android:layout_width="188dp"
+        android:layout_height="55dp"
+        android:text="@string/tasks"
+        android:layout_below="@id/sistemAppText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/solutions"
+        android:layout_width="188dp"
+        android:layout_height="55dp"
+        android:text="@string/solutions"
+        android:layout_below="@id/tasks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/buttonColor"/>
+</RelativeLayout>

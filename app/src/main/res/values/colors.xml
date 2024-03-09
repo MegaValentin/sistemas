@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Agrega más colores según sea necesario -->
+    <color name="bgprincipal">#FF0099CC</color>
+    <color name="colortext2">#FF000000</color>
+    <color name="colortext1">#FFFFFFFF</color>
+    <color name="buttonColor">#FF5722</color>
+
+    <color name="descriptionColor">#636261</color>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@color/bgprincipal"
+
+>
+
+<ImageButton
+    android:id="@+id/backButtonSolutions"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/home"
+    android:background="@null"
+    android:layout_alignParentStart="true"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/SolucionesText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="@string/ayuda"
+    android:textColor="@color/colortext1"
+    android:layout_marginStart="16dp"
+    android:layout_marginBottom="26dp"
+    android:layout_marginTop="56dp"
+    android:textSize="25sp"
+    />
+    <ScrollView
+        android:id="@+id/tereasScrooll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tareasContainer"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/errorsieteb"
+            android:background="@drawable/button_bg"/>
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/errorsetentaycuatro"
+            android:background="@drawable/button_bg"
+            />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:text="@string/erroronceb"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recuperarcontraseña"
+            android:background="@drawable/button_bg"/>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
